@@ -1,6 +1,6 @@
 # Semantic Segmentation, Papers and Insights
 
-1. FCN, Fully Convolutional Networks for Semantic Segmentation [[pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)][[code](https://github.com/shelhamer/fcn.berkeleyvision.org)]
+1. FCN, Fully Convolutional Networks for Semantic Segmentation [[pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)][[official code - caffe](https://github.com/shelhamer/fcn.berkeleyvision.org)][[code - tensorflow](https://github.com/shekkizh/FCN.tensorflow)]
 
 >Long, Jonathan, Evan Shelhamer, and Trevor Darrell. "Fully convolutional networks for semantic segmentation." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
 
@@ -19,7 +19,7 @@ Details:
 * Feature concatenation + 1x1 convolution = 1x1 convolution + feature addition, yet right side has small memory usage.
 * No significant difference in accuracy between fixed bilinear upsampling kernel and learned deconvolutional kernel.
 
-2. DeconvNet, Learning Deconvolution Network for Semantic Segmentation [[pdf](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Noh_Learning_Deconvolution_Network_ICCV_2015_paper.pdf)][[code](https://github.com/HyeonwooNoh/DeconvNet)]
+2. DeconvNet, Learning Deconvolution Network for Semantic Segmentation [[pdf](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Noh_Learning_Deconvolution_Network_ICCV_2015_paper.pdf)][[official code - caffe](https://github.com/HyeonwooNoh/DeconvNet)][[code - tensorflow](https://github.com/fabianbormann/Tensorflow-DeconvNet-Segmentation)]
 
 >Noh, Hyeonwoo, Seunghoon Hong, and Bohyung Han. "Learning deconvolution network for semantic segmentation." Proceedings of the IEEE international conference on computer vision. 2015.
 
